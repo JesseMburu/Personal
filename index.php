@@ -52,7 +52,7 @@
         <h1 class="title">Jesse Mungai</h1>
         <p class="section_text_p2">Full Stack Developer</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">View CV</button>
+            <button class="btn btn-color-2" onclick="window.open('./assets/Jesse-Resume.pdf')">View CV</button>
             <button class="btn btn-color-1" onclick="location.href = './#contact'">Contact Info</button>
         </div>
 
@@ -87,9 +87,15 @@
             </div>
 
             <div class="text-container">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Doloremque impedit, dicta sint architecto nostrum ducimus consequatur ullam. 
-                    Reiciendis sed animi magnam eos necessitatibus incidunt, accusamus quo doloremque pariatur cum maiores.
+                <p>
+                I am a student at Strathmore University, pursuing a bachelor’s degree in Informatics and Computer Science. 
+                As a dedicated computer science student, I possess a strong foundation in programming and web development. 
+                I am proficient in HTML, PHP, CSS, MySQL, Git and JavaScript, just to mention a few. 
+                I also have experience with the Laravel framework which enhances my ability to build good and robust applications efficiently. 
+                I am also skilled in using design software such as Figma and Draw.io, which are essential during project planning to create intuitive user interfaces. 
+                My effective project management skills allow me to effectively coordinate tasks, prioritize deliverables and ensure timely completion of objectives. 
+                I do well in collaborative environments by valuing the expertise of my teammates. 
+                I am eager and open to learning and improving as I look to thrive in my area of expertise.
                 </p>
             </div>
         </div>
@@ -98,6 +104,8 @@
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
 
 </section>
+
+<br>
 
 <section id="experience">
     <p class="section_text_p1">Explore my</p>
@@ -143,7 +151,7 @@
                         <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                         <div>
                             <h3>KOTLIN</h3>
-                            <p>Inexperienced</p>
+                            <p>Basic</p>
                         </div>
                     </article>
                 </div>
@@ -178,14 +186,6 @@
                     <article>
                         <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                         <div>
-                            <h3>POSTGRESQL</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                        <div>
                             <h3>MySQL</h3>
                             <p>Experienced</p>
                         </div>
@@ -208,8 +208,11 @@
                 <h2 class="experience-sub-title project-title">Nurturing Lives</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JesseMburu/MentalHealth.git'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
                 </div>
             </div>
+
+        
             
             <div class="details-containers color-container">
                 <div class="article-container">
@@ -218,6 +221,7 @@
                 <h2 class="experience-sub-title project-title">E-Learning</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JesseMburu/E-Learning.git'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
                 </div>
             </div>
 
@@ -228,6 +232,7 @@
                 <h2 class="experience-sub-title project-title">Sparkle & Silk</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JesseMburu/SPARKLE-SILK.git'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
                 </div>
             </div>
         </div>
@@ -248,6 +253,10 @@
         <div class="contact-info-container">
             <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
             <p><a href="https://www.linkedin.com/in/jesse-mburu-6421a1327?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNOJiin9BRVybCMm8CUbnxw%3D%3D">Linkedin</a></p>
+        </div>
+        <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="Linkedin icon" class="icon contact-icon">
+            <p><a href="tel:+254759585992">Phone</a></p>
         </div>
     </div>
 </section>

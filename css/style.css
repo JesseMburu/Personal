@@ -248,8 +248,8 @@ section{
 }
 .arrow{
     position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
+    right: -10rem;
+    bottom: 0.5rem;
 }
 .details-containers{
     padding: 1.5rem;
